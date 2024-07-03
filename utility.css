@@ -39,3 +39,22 @@
 .p-1{
     padding: 10px;
 }
+
+
+.cardContainer::-webkit-scrollbar {
+    width: 1vh;
+}
+
+.cardContainer::-webkit-scrollbar-track {
+    background: #2e2e2e;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 6px;
+}
+
+.cardContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
